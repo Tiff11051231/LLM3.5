@@ -1,119 +1,36 @@
+
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI個別指導 | 教科サポートチャットボットLLM 3.5 turbo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🧪 Testing GPT 3.5 Chatbot</title>
   <style>
     body {
-      font-family: 'Noto Sans JP', sans-serif;
-      margin: 0;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
       background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    .hero {
-      background-color: #1971c2;
-      color: white;
-      padding: 3rem 2rem;
       text-align: center;
     }
-
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-    }
-
-    .features {
-      padding: 2rem;
-      background-color: white;
-      text-align: center;
-    }
-
-    .features h2 {
+    h1 {
       color: #1971c2;
-      margin-bottom: 1rem;
     }
-
-    .features ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .features li {
-      padding: 0.5rem 0;
-      font-size: 1.1rem;
-    }
-
-    .cta {
-      background-color: #d0ebff;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    .cta button {
-      background-color: #1971c2;
-      color: white;
-      border: none;
-      padding: 1rem 2rem;
-      font-size: 1rem;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    .cta button:hover {
-      background-color: #1864ab;
-    }
-
     .chat-section {
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-
-    #chtl-launcher {
-      margin-top: 2rem;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
 
-  <section class="hero">
-    <h1>AI個別指導チャットボット LLM 3.5 turbo</h1>
-    <p>社会、歴史、数学、英語など、幅広い教科をサポートします。いつでも質問OK！</p>
-  </section>
+  <h1>🧪 Testing GPT 3.5 Chatbot Embed</h1>
+  <p>If the chatbot appears below, the embed is working correctly.</p>
 
-  <section class="features">
-    <h2>このようなニーズに対応</h2>
-    <ul>
-      <li>✔︎ 授業でわからなかったところを復習したい</li>
-      <li>✔︎ テスト前に重要ポイントを整理したい</li>
-      <li>✔︎ 宿題やワークの進め方に困っている</li>
-      <li>✔︎ 歴史や社会の用語・因果関係を理解したい</li>
-    </ul>
-  </section>
-
-  <section class="cta">
-    <p>まずは質問してみましょう！</p>
-    <button onclick="document.getElementById('chat').scrollIntoView({behavior: 'smooth'})">
-      チャットで質問する
-    </button>
-  </section>
-
-  <section class="chat-section" id="chat">
+  <div class="chat-section">
     <div id="chtl-launcher"></div>
-  </section>
+  </div>
 
-  <!-- ✅ Chatling script (new bot ID) -->
-  <script>
-    window.chtlConfig = { chatbotId: "9778366337" };
-  </script>
-  <script async data-id="9778366337" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+  <!-- Embed script for Chatling bot ID 3232849331 (GPT 3.5) -->
+  <script src="https://embed.chatling.ai/launch.js" data-chatbot-id="3232849331"></script>
 
 </body>
 </html>
